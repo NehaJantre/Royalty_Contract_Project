@@ -21,6 +21,9 @@ RPC SERVER = HTTP://127.0.0.1:7545
 11) under the contract name in remix click the arrow to the right of deploy and input the address's and the number of shares corresponding with each account
 12) click transact
 
+deployment demo video below
+bandicam 2021-11-07 17-57-19-952.mp4
+
 Next Step - front end deployment:
 This is not required nor complete but would be the next step of our project as discussed in our presentation. The following files: app.py , PaymentSplitterFinal.json and .env are required. The .env file would need to be updated with the new smart contract address that can be found in ganache under transactions or next to the deployed contract name in remix
 
