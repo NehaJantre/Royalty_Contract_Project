@@ -15,9 +15,13 @@ Deployment steps:
 RPC SERVER = HTTP://127.0.0.1:7545
 6) save network in metamask and then grab several private keys from the ganache accounts and import those into the metamask devnetwork.
 7) in remix copy the solidity code from the file named PaymentSplitterFinal1.sol
-8) compile the contract code with the correspoding compiler version
+8) compile the contract code with the corresponding compiler version
 9) on the deployment tab change the Environment to injected web3. This should automatically open the metamask app requesting your password and which account you would like to connect, select account (with 100 eth) click connect
 10) in remix select the account that will be the contract sender account
-11) under the contract name in remix click the arrow to the right of deploy and input the address's and the number of shares coorespoding with each account
-12) click transact 
+11) under the contract name in remix click the arrow to the right of deploy and input the address's and the number of shares corresponding with each account
+12) click transact
+
+Next Step - front end deployment:
+This is not required nor complete but would be the next step of our project as discussed in our presentation. The following files: app.py , PaymentSplitterFinal.json and .env are required. The .env file would need to be updated with the new smart contract address that can be found in ganache under transactions or next to the deployed contract name in remix
+
 
