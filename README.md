@@ -1,1 +1,5 @@
 # Royalty_Contract_Project
+
+Our team identified an opportunity to improve an ongoing payment  system issue across the world. We developed a flexible solution to provide individuals and companies across different industries (artist, suppliers, royalty holders, nonprofits etc.) a secure and instant access to their funds from the product being sold. This effectively can eliminate scandals while also reducing the turn around time for people to be paid while providing a layer of trust that they are getting their agreed upon percentage that was committed. 
+
+The solution our team developed is a Royalty Smart Contract written in Solidity for the ETH blockchain that delivers a customizable distribution of incoming funds. This fintech solution automates a type of payment system that is inherently trustless via the smart contract logic and leveraging blockchain decentralization. This enables a set and forget aspect that can reduce some of the business admin oversight costs required with auditing.
