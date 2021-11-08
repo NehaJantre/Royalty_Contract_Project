@@ -5,7 +5,7 @@ Our team identified an opportunity to improve an ongoing payment  system issue a
 The solution our team developed is a Royalty Smart Contract written in Solidity for the ETH blockchain that delivers a customizable distribution of incoming funds. This fintech solution automates a type of payment system that is inherently trustless via the smart contract logic and leveraging blockchain decentralization. This enables a set and forget aspect that can reduce some of the business admin oversight costs required with auditing.
 
 
-Deployment steps:
+# Deployment steps:
 1) clone repo
 2) open remix https://remix.ethereum.org/
 3) install and open ganache
@@ -21,10 +21,17 @@ RPC SERVER = HTTP://127.0.0.1:7545
 11) under the contract name in remix click the arrow to the right of deploy and input the address's and the number of shares corresponding with each account
 12) click transact
 
-Deployment demo video below
+## Deployment Demo
+click the link
 ![demo video](https://github.com/ZachVZ/Royalty_Contract_Project/blob/main/bandicam%202021-11-07%2017-57-19-952.mp4)
 
-Next Step - front end deployment:
+ ### Next Step - front end deployment:
 This is not required nor complete but would be the next step of our project as discussed in our presentation. The following files: app.py , PaymentSplitterFinal.json and .env are required. The .env file would need to be updated with the new smart contract address that can be found in ganache under transactions or next to the deployed contract name in remix
+
+#### Contributors: 
+* Martique
+* Neha
+* Cole
+* Zach
 
 
